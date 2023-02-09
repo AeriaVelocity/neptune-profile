@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body {
+    color: #cca8d4;
+    background-color: #250c2b;
+    margin: auto;
+    padding: 0 15px;
+    max-width: 540px;
+    font-family: 'Noto Serif';
+    line-height: 1.8;
+    padding-bottom: 20px;
+}
+a {
+    color: #D200FF;
+}
+h1, h2, h3, h4 {
+    text-align: center;
+}
+h1, h2 { 
+    line-height: 1.2;
+}
+.pfp {
+    width: 200px;
+    margin: 40px auto;
+    display: block;
+    border-radius: 125px;
+    border: 5px solid #D200FF;
+}
+.muse-link {
+    color: white;
+    background-color: #D200FF;
+    padding: 8px;
+    margin: 7px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    max-width: 120px;
+}
+.muse-link:hover {
+    background-color: #a915ca;
+}
+.muse-link img {
+    width: 100px;
+    height: 100px;
+    padding-bottom: 6px;
+    display: block;
+}
+
+.full-width {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+@media (max-width: 562px) {
+    .muse-link {
+        padding: auto;
+        margin: 5% auto;
+        width: 100%;
+        max-width: 95%;
+        display: block;
+    }
+    .muse-link img {
+        width: 100%;
+        max-width: 100%;
+        height: 170px;
+        padding-bottom: 6px;
+        display: block;
+        object-fit: cover;
+    }
+}

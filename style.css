@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 body {
-    color: #ffbef8;
-    background-color: #1c0617;
+    color: #222222;
+    background-color: #dcced8;
     margin: auto;
     padding: 0 15px;
     max-width: 540px;
@@ -10,7 +10,7 @@ body {
     padding-bottom: 20px;
 }
 a {
-    color: #f71fde;
+    color: #e500ca;
 }
 h1, h2, h3, h4 {
     text-align: center;
@@ -67,5 +67,15 @@ h1, h2 {
         padding-bottom: 6px;
         display: block;
         object-fit: cover;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color: #dcced8;
+        background-color: #222222;
+    }
+    .pfp {
+        border-color: #af139d;
     }
 }

@@ -1,33 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 body {
-    color: #222222;
-    background-color: #dcced8;
-    margin: auto;
-    padding: 0 15px;
-    max-width: 540px;
     font-family: 'Noto Serif';
+    font-size: 18px;
     line-height: 1.8;
     padding-bottom: 20px;
+    background-image: url("Cyber_Space.PNG.webp");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
+
+.content {
+    color: #ffffff;
+    background-color: #23103fda;
+    margin: auto;
+    padding: 40px 6%;
+    max-width: 540px;
+    border-radius: 10px;
+}
+
 a {
-    color: #e500ca;
+    color: #b686ff;
 }
 h1, h2, h3, h4 {
     text-align: center;
+    line-height: 1;
 }
-h1, h2 { 
+.example {
+    font-family: sans-serif;
     line-height: 1.2;
+    font-size: 16px;
+    color: #CFD0D1;
+    background-color: #15202B;
+    padding: 16px;
+    margin: auto 26px;
+    border-radius: 8px;
+}
+.example #datetime {
+    color: #8B98A5;
+}
+.example #datetime span {
+    color: #f7f9f9;
+    font-weight: bold;
 }
 .pfp {
     width: 200px;
     margin: 40px auto;
     display: block;
     border-radius: 125px;
-    border: 5px solid #ff00fb;
+    border: 5px solid #7E49CE;
 }
 .muse-link {
     color: white;
-    background-color: #d900ff;
+    background-color: #9475D8;
     padding: 8px;
     margin: 7px;
     display: inline-block;
@@ -35,9 +60,10 @@ h1, h2 {
     text-decoration: none;
     max-width: 120px;
     transition: background-color .2s;
+    text-shadow: 0px 0px 12px #353535a2;
 }
 .muse-link:hover {
-    background-color: #c115ca;
+    background-color: #7835dd;
 }
 .muse-link img {
     width: 100px;
@@ -50,9 +76,10 @@ h1, h2 {
     width: 100%;
     height: 150px;
     object-fit: cover;
+    border-radius: 25px;
 }
 
-@media (max-width: 562px) {
+@media (max-width: 622px) {
     .muse-link {
         padding: auto;
         margin: 5% auto;
@@ -67,15 +94,5 @@ h1, h2 {
         padding-bottom: 6px;
         display: block;
         object-fit: cover;
-    }
-}
-
-@media (prefers-color-scheme: dark) {
-    body {
-        color: #dcced8;
-        background-color: #222222;
-    }
-    .pfp {
-        border-color: #af139d;
     }
 }

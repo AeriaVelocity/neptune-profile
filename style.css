@@ -65,7 +65,17 @@ h1, h2, h3, h4 {
 .muse-link:hover {
     background-color: #7835dd;
 }
-.muse-link img {
+.muse-link-inactive {
+    color: white;
+    background-color: #75688f;
+    padding: 8px;
+    margin: 7px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    max-width: 120px;
+}
+.muse-link img, .muse-link-inactive img {
     width: 100px;
     height: 100px;
     padding-bottom: 6px;
